@@ -1,0 +1,136 @@
+#wrapper {
+	margin: auto;
+	width: 1000px;
+	background-image:url(google.gif);
+	border: 1px;
+}
+#header {
+	height: 100px;
+	border: 1px;
+	background-repeat:no-repeat;
+}
+#logo {
+	width: 250px;
+	height: 100px;
+	float:left;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: url(cl.jpg) no-repeat;
+	border: 1px;
+}
+
+#menu {
+	width: 190px;
+	padding: 10px;
+	height: 80px;
+	float:right;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu li {
+	display: inline;
+}
+#menu a {
+	margin-right:0px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color:#000000;
+}
+#menu a:hover, 
+#menu .current_page_item a {
+	color:#990000;
+}
+#menu a:hover {
+	text-decoration: underline;
+}
+#inner {
+	float: left;
+	margin: 5px 0px 0px 0px;
+	background-color:#999999;
+	border: 1px;
+}
+#sidebar {
+	float: left;
+	width: 180px;
+	height: 305px;
+	margin: 0px 0px 0px 0px;
+	background-color:#999999;
+	border: 1px;
+}
+h4{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#FFFFFF;
+	background: #183134 no-repeat left center;
+}
+
+#leftmenu ul {
+	width: 180px;
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	font-size:15px;
+}
+#leftmenu a:link,
+#leftmenu a:visited, 
+#leftmenu a:active {
+	padding-left: 15px;
+	text-decoration: none;
+}
+#leftmenu a {
+	padding: 5px 0px 5px 15px;
+	display: block;
+	background:#000066 no-repeat left center;
+	margin: 1.1px 1px;
+	color: #ffffff;
+}
+#leftmenu a:hover {
+	background:#000066 no-repeat left center;
+	color: #ffffff
+}
+
+#content {
+	float: left;
+	width: 800px;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	margin: 2px 0px 2px 0px;
+	padding: 10px 7px 7px 10px;
+	background-color:#FFFFFF;
+	border: 2px solid black;
+}
+#right {
+	float:right;
+	width:200px;
+	height:150px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin: 5px 0px 5px 0px;
+	padding: 10px 5px 5px 15px;
+	background-color:#CCCCCC;
+	border:1px;
+}
+#footer {
+	clear: both;
+	height: 80px;
+	margin: 0px 0px 0px 0px;
+	background-color:#009900;
+	font:Arial, Helvetica, sans-serif;
+	border: 1px;
+}
+#footer #text{
+	color:#fff;
+	padding:10px;
+	text-align:left;
+	font-size:12pt;
+	text-shadow: #000 1px 1px 2px;
+}
